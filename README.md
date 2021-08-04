@@ -1,6 +1,6 @@
 # logic_studio_scripting
 
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]](http://creativecommons.org/licenses/by/4.0/)
 
 Examples of how to use the MIDI scripting tool in Logic Pro
 
@@ -12,8 +12,7 @@ Bottom line: Use the files in this repo in any way you see fit, but attribute th
 ## Licensing
 Code is licensed under the Apache License. This only applies if you make new software using the code (aka scripts) here. Using the code to make multimedia works are licensed under CC-BY-4.0. (See below)
 
-Audio, video and images are public domain
-[Creative Commons Attribution 4.0 International License][cc-by].
+Audio, video and images are licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 

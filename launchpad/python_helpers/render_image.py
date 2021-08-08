@@ -16,6 +16,7 @@ def get_grays():
     rgb = get_color_data()
     grays = rgb[rgb['Saturation'] < 0.1]
     grays_sorted_asc = grays.sort_values(['Value'], ascending=True)
+    grays_sorted_asc = grays_sorted_asc.drop(70) # duplicate pad
     length = len(grays_sorted_asc)
     grays_sorted_asc2 = grays_sorted_asc.drop(columns=['Hue','Saturation','Value','Pad'])
     gray_arr = grays_sorted_asc2.to_numpy()
@@ -79,11 +80,11 @@ def list_to_image(array):
 # img_data = default_color_order()
 # list_to_image(img_data)
 
-# grayscale = get_grays()
-# list_to_image(grayscale)
+grayscale = get_grays()
+list_to_image(grayscale)
 
-indexnum = 18
-norm_color = get_color_by_brightness(indexnum, bins=indexnum)
-rainbow_img_data = rainbow(norm_color)
-print(rainbow_img_data.shape[1])
-list_to_image(rainbow_img_data)
+# indexnum = 18
+# norm_color = get_color_by_brightness(indexnum, bins=indexnum)
+# rainbow_img_data = rainbow(norm_color)
+# print(rainbow_img_data.shape[1])
+# list_to_image(rainbow_img_data)

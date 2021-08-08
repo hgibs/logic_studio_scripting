@@ -143,9 +143,9 @@ const launchpad_color_decimal = {
 };
 
 //grayscale range (no color)
-const grays_descending = [3, 2, 70, 118, 117, 71, 1, 0]
-const grays_ascending = [0, 1, 71, 117, 118, 2, 70, 3]
+const grays_ascending = [0, 1, 117, 118, 2, 3];
+const grays_descending = [3, 2, 118, 117, 1, 0];
 
 //Rainbow Scale (no white/grey)
-const colors_ascending = [60, 96, 8, 109, 113, 73, 86, 75, 88, 77, 33, 90, 37, 41, 67, 80, 81, 94, 53, 95, 72]
-const colors_descending = [72, 95, 53, 94, 81, 80, 67, 41, 37, 90, 33, 77, 88, 75, 86, 73, 113, 109, 8, 96, 60]
+const colors_ascending = [60, 96, 8, 109, 113, 73, 86, 75, 88, 77, 33, 90, 37, 41, 67, 80, 81, 94, 53, 95, 72];
+const colors_descending = [72, 95, 53, 94, 81, 80, 67, 41, 37, 90, 33, 77, 88, 75, 86, 73, 113, 109, 8, 96, 60];

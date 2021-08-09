@@ -28,6 +28,7 @@ function HandleMIDI(event){
   }
   if (event instanceof NoteOff){
     delete pressed_pitches[event.pitch];
+    pad_on_spec(0, info.blockStartBeat);
   }
 }
 
